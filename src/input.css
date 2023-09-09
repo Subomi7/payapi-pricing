@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply shadow-md rounded-full transition duration-300;
+}
+
+.btn-primary {
+  @apply bg-primary text-secondary px-7 py-3 font-medium text-xl;
+}
+
+.btn-secondary {
+  @apply bg-primary text-secondary px-5 py-2.5 text-xs focus:outline-none focus:ring-4 focus:ring-gray-200 mr-2;
+}
+
+.btn-tertiary {
+  @apply bg-mirage text-secondary font-medium border border-secondary focus:outline-none hover:bg-secondary hover:text-mirage focus:ring-4 focus:ring-gray-200 text-sm px-5 py-2.5 mr-2;
+}
+
+.btn-subby {
+  @apply bg-moro text-mirage font-medium border border-mirage focus:outline-none hover:bg-mirage hover:text-secondary focus:ring-4 focus:ring-gray-200 text-sm px-5 py-2.5 mr-2;
+}
